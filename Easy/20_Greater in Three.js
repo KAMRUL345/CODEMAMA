@@ -17,3 +17,13 @@ Enter three numbers
 Input:
 
 */
+//Solutions
+
+function main (input) {
+    let data =input.split(" ");
+    let num1 = parseInt(data[0]);
+    let num2 = parseInt(data[1]);
+let num3 = parseInt(data[2]);
+let max = Math.max(num1, num2, num3);
+console.log(max);
+}
